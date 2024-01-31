@@ -114,9 +114,12 @@ function Cart() {
                 <p className="text-gray-700">
                   Price: ${productData[item.productId]?.price}
                 </p>
-                <div className="flex gap-4 mt-4">
+                <div className="flex flex-col gap-4 mt-4">
                   <p className="text-gray-700">Quantity: {item.quantity}</p>
-                  <button onClick={() => handleDelete(item.productId)}>
+                  <button
+                    className="text-white bg-red-500 shadow-md p-3b rounded-xl"
+                    onClick={() => handleDelete(item.productId)}
+                  >
                     Remove
                   </button>
                 </div>
