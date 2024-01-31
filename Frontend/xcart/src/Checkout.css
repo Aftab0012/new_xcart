@@ -1,0 +1,8 @@
+.cart {
+  background: rgb(249, 244, 244); /* Light gray with reduced opacity */
+  box-shadow: 0 8px 32px 0 rgba(128, 128, 128, 0.37); /* Adjust shadow color to a darker gray */
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
