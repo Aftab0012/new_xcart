@@ -52,6 +52,10 @@ app.use(
   productRoutes
 );
 
+app.get('/health', (req, res) => {
+  res.send('hello world');
+});
+
 // Route to handle cart-related APIs
 app.use('/cart', passport.authenticate('jwt', { session: false }), cartRoute);
 
